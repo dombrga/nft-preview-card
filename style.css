@@ -1,0 +1,122 @@
+/* general */
+* {
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+/* typography */
+p {
+  font-size: 18px;
+}
+
+.white { color: hsl(0, 0%, 100%); }
+.soft-blue { color: hsl(215, 51%, 70%); }
+.cyan { color: hsl(178, 100%, 50%); }
+
+p.p-words {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+div.creation p {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+span.price,
+span.days {
+  font-size: 14px;
+}
+
+/* others */
+.container {
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  
+  width: 300px;
+  margin: 0 auto;
+  padding: 21px;
+}
+
+.equilibrium {
+  border-radius: 10px;
+  
+  display: block;
+  width: 100%;
+  margin: 0 auto 0;
+}
+
+div.price-container {
+  overflow: hidden;
+}
+
+div.left {
+  float: left;
+}
+
+div.right {
+  float: right;
+}
+
+div.left, div.right{
+  align-items: center;
+  column-gap: 5px;
+}
+
+.divider {
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+
+  width: 100%;
+  margin: 20px 0
+}
+
+div.creation {
+  column-gap: 15px;
+}
+
+img.avatar {
+  height: 40px;
+  width: 40px;
+
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+/* attribution */
+.attribution { 
+  color: rgb(175, 176, 177);
+  font-size: 11px; 
+  text-align: center; 
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
