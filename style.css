@@ -46,10 +46,7 @@ span.days {
   background-color: hsl(217, 54%, 11%);
   height: 100vh;
 
-  flex-direction: column;
-  justify-content: center;
-
-  position: relative;
+  align-items: center;
 }
 
 .card {
@@ -105,16 +102,16 @@ img.avatar {
   border-radius: 50%;
 }
 
-/* attribution */
-.attribution { 
+footer { 
   color: rgb(175, 176, 177);
   font-size: 11px; 
   text-align: center; 
 
+  width: 100%;
+  display: flex;
+  justify-content: center;
   position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
+  bottom: 0
 }
 
 .attribution a { 
