@@ -61,12 +61,11 @@ span.days {
 }
 
 .equi-container {
-  /* background-color: red; */
+  /* background-color: blue; */
   /* z-index: -1; */
 }
 
 .equi-container:hover {
-  border: hsl(178, 100%, 50%) 5px solid;
   opacity: 0.57
 }
 
