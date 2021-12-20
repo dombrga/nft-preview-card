@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/dombrga/nft-preview-card-component)
-- Live Site URL: [Add live site URL here](https://dombrga.github.io/nft-preview-card-component/)
+- [Github repo](https://github.com/dombrga/nft-preview-card)
+- [Live site](https://dombrga.github.io/nft-preview-card/)
 
 ## My process
 
